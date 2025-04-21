@@ -8,10 +8,20 @@ export default function CrewmateCard({ crewmate }) {
       <div className="card-content">
         <h2>{crewmate.name || 'Unnamed Crewmate'}</h2>
         <div className="crewmate-details">
-          {crewmate.speed && <p className="detail">Speed: {crewmate.speed}</p>}
-          {crewmate.color && <p className="detail">Color: {crewmate.color}</p>}
+          {crewmate.speed !== null && (
+            <p className="detail">
+              <span className="label">Speed:</span> {crewmate.speed}
+            </p>
+          )}
+          {crewmate.color && (
+            <p className="detail">
+              <span className="label">Color:</span> {crewmate.color}
+            </p>
+          )}
           {crewmate.description && (
-            <p className="description">{crewmate.description}</p>
+            <p className="description">
+              <span className="label">Description:</span> {crewmate.description}
+            </p>
           )}
         </div>
         <div className="card-actions">
