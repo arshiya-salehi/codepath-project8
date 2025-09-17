@@ -130,20 +130,6 @@ Crewmate Details
 
 Update Crewmate
 
-📚 Resources
-Supabase Documentation
-
-supabase-js Docs
-
-Vite Documentation
-
-👩‍💻 Author
-Developed as part of CodePath Web Development 103 coursework.
-
-perl
-Copy code
- ​:contentReference[oaicite:0]{index=0}​
-
 
 
 
